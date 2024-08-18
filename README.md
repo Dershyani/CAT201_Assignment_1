@@ -25,7 +25,8 @@ This project is a PDF to TXT & TXT to PDF converter using PHP, Apache web server
    ```bash
    docker run -d -p 8000:80 --name PDF_converter -v "$(pwd)":/var/www/html php:apache
 4. Open the converter:
-Access localhost:80 in your web browser to start converting PDFs to TXT and vice versa.
+
+- Access localhost:80 in your web browser to start converting PDFs to TXT and vice versa.
 
 ## Video Tutorial
 
