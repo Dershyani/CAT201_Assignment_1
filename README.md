@@ -25,7 +25,7 @@ This project is a PDF to TXT & TXT to PDF converter using PHP, Apache web server
 2. **Download the repository:**
    
    ```bash
-   git clone https://github.com/Lithia22/pdf_converter.git
+   git clone https://github.com/Lithia22/CAT201_pdf_converter.git
    ```
    
 3. **Enter the project folder::**
