@@ -33,7 +33,7 @@ Check out the PDF Converter for CAT201 Assignment 1!
 2. **Download the repository:**
    
    ```bash
-   git clone https://github.com/Lithia22/CAT201_pdf_converter.git
+   git clone https://github.com/Lithia22/CAT201_Assignment_1.git
    ```
    
 3. **Enter the project folder::**
