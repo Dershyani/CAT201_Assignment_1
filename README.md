@@ -2,6 +2,8 @@
 
 This project is a simple web-based application designed to convert PDF files to TXT files and vice versa. The web application is built using HTML, CSS, JavaScript, PHP, and Java. The app uses the Apache PDFBox library, a free tool for handling PDF documents.
 
+<img width="1397" alt="Screenshot 2024-08-19 at 12 35 28 AM" src="https://github.com/user-attachments/assets/cfcbe130-99eb-41cd-a40a-72affd3c9636">
+
 
 ## Prerequisites
 
