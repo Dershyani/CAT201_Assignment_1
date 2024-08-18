@@ -5,7 +5,7 @@ This project is a simple web-based application designed to convert PDF files to 
 
 ## Prerequisites
 
-- Docker installed on your system. [Watch a YouTube tutorial on installing Docker](https://youtu.be/TDLKQWsrSyk?si=bcv0J37m7tACiZW_)
+- Docker installed on your system. <a href="https://youtu.be/TDLKQWsrSyk?si=bcv0J37m7tACiZW_" target="_blank">Watch a YouTube tutorial on installing Docker</a>
 
 ## Features
 
