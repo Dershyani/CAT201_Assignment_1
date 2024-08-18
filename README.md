@@ -33,7 +33,6 @@ Here is the video tutorial for a walkthrough of the application:
 
 <div align="center">
   <a href="https://github.com/user-attachments/assets/d53a4f7c-5dfd-4bd1-8779-a6fc579ad9ad" target="_blank">
-    <img src="https://img.shields.io/badge/Watch%20Video%20Tutorial-%20blue" alt="Video Tutorial" width="300"/>
   </a>
 </div>
 
