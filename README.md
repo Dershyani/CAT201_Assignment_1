@@ -28,3 +28,6 @@ This project is a PDF to TXT & TXT to PDF converter using PHP, Apache web server
 Access localhost:80 in your web browser to start converting PDFs to TXT and vice versa.
 
 ## Video Tutorial
+
+https://github.com/user-attachments/assets/d53a4f7c-5dfd-4bd1-8779-a6fc579ad9ad
+
