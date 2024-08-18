@@ -1,10 +1,11 @@
 # PDF Converter Web Application
 
-This project is a PDF to TXT & TXT to PDF converter using PHP, Apache web server, Ubuntu, Docker, Java, and PDFBox.
+This project is a simple web-based application designed to convert PDF files to TXT files and vice versa. The web application is built using HTML, CSS, JavaScript, PHP, and Java. The app uses the Apache PDFBox library, a free tool for handling PDF documents.
+
 
 ## Prerequisites
 
-- Docker installed on your system.
+- Docker installed on your system. [Watch a YouTube tutorial on installing Docker](https://youtu.be/TDLKQWsrSyk?si=bcv0J37m7tACiZW_)
 
 ## Features
 
