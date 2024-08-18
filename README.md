@@ -29,11 +29,6 @@ Access localhost:80 in your web browser to start converting PDFs to TXT and vice
 
 ## Video Tutorial
 
-Here is the video tutorial for a walkthrough of the application:
-
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/d53a4f7c-5dfd-4bd1-8779-a6fc579ad9ad" target="_blank">
-  </a>
-</div>
+https://github.com/user-attachments/assets/d53a4f7c-5dfd-4bd1-8779-a6fc579ad9ad
 
 
