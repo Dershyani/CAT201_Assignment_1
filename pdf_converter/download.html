@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata and Title -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Internal Styles for Centering and Download Links -->
+    <style>
+        /* Add these styles for centering the buttons */
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .convert-btn,
+        .back-btn {
+            margin: 10px;
+        }
+
+        /* Underline effect to download links */
+        a.download-link {
+            text-decoration: underline;
+            color: white; /* Use the same color as the surrounding text */
+        }
+
+        /* Space between download links */
+        .download-links {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <!-- Page Header -->
+        <h1 class="typewriter"> PDF &#8596; TXT...</h1>
+        <p class="center-text">Convert with ease.</p>
+        <br><br><br><br><br><br><br>
+
+        <div class="center">
+            <br>
+
+            <!-- Download Links for TXT and PDF -->
+            <div class="download-links">
+                <p><a href="output/test_output.txt" download class="download-link">Download TXT</a></p>
+                <br>
+                <p><a href="output/test_output.pdf" download class="download-link">Download PDF</a></p>
+            </div>
+
+            <br>
+        </div>
+
+        <br>
+
+        <!-- Form and buttons for Upload and Back -->
+        <div class="center">
+            <form action="index.html" method="post" enctype="multipart/form-data">
+                <button type="submit" value="Convert" name="submit" class="convert-btn">Upload more files</button>
+            </form>
+
+            <br>
+
+            <form action="index.html" method="post" enctype="multipart/form-data">
+                <button type="submit" value="Back" name="submit" class="back-btn">Back</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+

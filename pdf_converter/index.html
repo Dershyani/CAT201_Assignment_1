@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata and Title -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <!-- Page Header -->
+        <h1 class="typewriter"> PDF &#8596; TXT...</h1>
+        <p class="center-text">Convert with ease.</p>
+        <br><br><br><br><br><br><br>
+
+        <!-- File Upload Form -->
+        <div class="center">
+            <form id="uploadForm" action="convert.html" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+                <!-- File Input -->
+                <label for="fileToUpload">Choose File:</label>
+                <input type="file" name="files[]" id="fileToUpload" class="browse" multiple>
+                <br><br>
+
+                <!-- Conversion Direction Dropdown -->
+                <label for="conversionDirection">Select Conversion Direction:</label>
+                <select name="conversion_direction" id="conversionDirection">
+                    <option value="pdf_to_txt">PDF to TXT</option>
+                    <option value="txt_to_pdf">TXT to PDF</option>
+                </select>
+                <br><br>
+
+                <!-- Submit Button -->
+                <button type="submit" value="Upload" name="submit">Upload</button>
+            </form>
+
+            <!-- Uploaded File List -->
+            <div id="fileList"></div>
+            <br>
+
+            <!-- Error Message Display -->
+            <p id="errorMessage" style="color: red;"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript Section -->
+    <script>
+        <!-- Event Listener for File Input Change -->
+        document.getElementById('fileToUpload').addEventListener('change', updateFileList);
+
+        <!-- Form Validation Function -->
+        function validateForm() {
+            const fileInput = document.getElementById('fileToUpload');
+            const errorMessage = document.getElementById('errorMessage');
+            const allowedTypes = ['application/pdf', 'text/plain'];
+            const maxSize = 500000; <!-- 500 KB -->
+
+            for (const file of fileInput.files) {
+                <!-- Check file type -->
+                if (!allowedTypes.includes(file.type)) {
+                    errorMessage.innerHTML = 'Invalid file type. Please upload only PDF or TXT files.';
+                    return false; <!-- Prevent form submission -->
+                }
+
+                <!-- Check file size -->
+                if (file.size > maxSize) {
+                    errorMessage.innerHTML = 'File size is too big. Please upload a file size below 500 KB.';
+                    return false; <!-- Prevent form submission -->
+                }
+            }
+
+            <!-- Clear error message if validation passes -->
+            errorMessage.innerHTML = '';
+
+            <!-- Allow form submission -->
+            return true;
+        }
+
+        <!-- Update Uploaded File List Function -->
+        function updateFileList() {
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = '<p>Selected Files:</p><ul>';
+
+            <!-- Display valid files -->
+            for (const file of document.getElementById('fileToUpload').files) {
+                fileList.innerHTML += `<li>${file.name}</li>`;
+            }
+
+            fileList.innerHTML += '</ul>';
+        }
+    </script>
+</body>
+
+</html>
+

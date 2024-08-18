@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and stylesheet link -->
+    <title>Convert</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Centering the buttons -->
+    <style>
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .convert-btn,
+        .back-btn {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <!-- Heading and description -->
+        <h1 class="typewriter"> PDF &#8596; TXT...</h1>
+        <p class="center-text">Convert with ease.</p>
+        <br><br><br><br><br><br><br>
+
+        <!-- Success message -->
+        <p class="success-msg">Successfully uploaded. Click "Convert" to continue.</p>
+        <br>
+
+        <!-- Form and buttons -->
+        <div class="center">
+            <!-- Include PHP file for conversion logic -->
+            <?php include 'convert.php'; ?>
+
+            <!-- Convert button -->
+            <form action="download.html" method="post" enctype="multipart/form-data">
+                <button type="submit" value="Convert" name="submit" class="convert-btn">Convert</button>
+            </form>
+
+            <!-- Upload more files button -->
+            <br>
+            <form action="index.html" method="post" enctype="multipart/form-data">
+                <button type="submit" value="Convert" name="submit" class="convert-btn">Upload more files</button>
+            </form>
+
+            <!-- Back button -->
+            <br>
+            <form action="index.html" method="post" enctype="multipart/form-data">
+                <button type="submit" value="Back" name="submit" class="back-btn">Back</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
