@@ -8,9 +8,10 @@ This project is a PDF to TXT & TXT to PDF converter using PHP, Apache web server
 
 ## Features
 
-- **PDF to TXT Conversion**: Converts PDF files to TXT.
-- **TXT to PDF Conversion**: Converts TXT files to PDF.
+- **PDF to TXT Conversion**
+- **TXT to PDF Conversion**
 - **File Validation**: Checks file type, size, and integrity.
+- **Multiple File Upload**: Allows uploading one or more files at a time.
 
 ## Usage
 
