@@ -6,6 +6,10 @@ This project is a simple web-based application designed to convert PDF files to 
   <img width="800" alt="Screenshot 2024-08-19 at 12 35 28 AM" src="https://github.com/user-attachments/assets/cfcbe130-99eb-41cd-a40a-72affd3c9636">
 </p>
 
+<p style="color: red; text-align: center;">
+  If the image doesn't appear immediately, it may take a bit longer the first time you visit.
+</p>
+
 ## Features
 
 - **PDF to TXT Conversion**
