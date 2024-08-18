@@ -6,16 +6,16 @@ This project is a simple web-based application designed to convert PDF files to 
   <img width="800" alt="Screenshot 2024-08-19 at 12 35 28 AM" src="https://github.com/user-attachments/assets/cfcbe130-99eb-41cd-a40a-72affd3c9636">
 </p>
 
-## Prerequisites
-
-- Docker installed on your system. <a href="https://youtu.be/TDLKQWsrSyk?si=bcv0J37m7tACiZW_" target="_blank">Watch a YouTube tutorial on installing Docker</a>
-
 ## Features
 
 - **PDF to TXT Conversion**
 - **TXT to PDF Conversion**
 - **File Validation**: Checks file type, size, and integrity.
 - **Multiple File Upload**: Allows uploading one or more files at a time.
+
+## Prerequisites
+
+- Docker installed on your system. <a href="https://youtu.be/TDLKQWsrSyk?si=bcv0J37m7tACiZW_" target="_blank">Watch a YouTube tutorial on installing Docker</a>
 
 ## How To Use
 
