@@ -23,32 +23,32 @@ Check out the PDF Converter for CAT201 Assignment 1!
 
 ## How To Use
 
-1. **Pull the Docker images:**
+1. **Pull the Docker images**
    
    ```bash
    docker pull httpd
    docker pull php:apache
    ```
 
-2. **Download the repository:**
+2. **Download the repository**
    
    ```bash
    git clone https://github.com/Lithia22/CAT201_Assignment_1.git
    ```
    
-3. **Enter the project folder::**
+3. **Enter the project folder**
    
    ```bash 
    cd pdf_converter
    ```
    
-4. **Launch the Docker container:**
+4. **Launch the Docker container**
    
    ```bash
    docker run -d -p 8000:80 --name PDF_converter -v "$(pwd)":/var/www/html php:apache
    ```
    
-5. **Verify the container is running:**
+5. **Verify the container is running**
    
    ```bash
    docker ps
