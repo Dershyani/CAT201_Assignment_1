@@ -7,7 +7,7 @@ Check out the PDF Converter for CAT201 Assignment 1!
 - Utilizes the Apache PDFBox library for PDF handling.
 
 <p align="center">
-  <img width="800" alt="Screenshot 2024-08-19 at 12 35 28 AM" src="https://github.com/user-attachments/assets/cfcbe130-99eb-41cd-a40a-72affd3c9636">
+  <img width="800" alt="Screenshot 2024-08-19 at 12 35 28 AM" src="pdf_converter/Preview.gif">
 </p>
 
 ## Features
