@@ -58,4 +58,4 @@ Check out the PDF Converter for CAT201 Assignment 1!
 
 [![Watch the video](https://github.com/user-attachments/assets/e6631c07-c527-438c-87c4-ea9539e3ef63)](https://youtu.be/hm_EmIYtFPo?si=Et67VGyZoidlIsjJ)
 
-Click on the image above to watch the tutorial on YouTube.
+Click on the image above to watch the website preview on YouTube.
