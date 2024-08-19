@@ -6,9 +6,7 @@ Check out the PDF Converter for CAT201 Assignment 1!
 - Built with `HTML`, `CSS`, `JavaScript`, `PHP`, and `Java`.
 - Utilizes the Apache PDFBox library for PDF handling.
 
-<p align="center">
-  <img width="800" alt="Screenshot 2024-08-19 at 12 35 28 AM" src="pdf_converter/Preview.gif">
-</p>
+<img src="pdf_converter/Preview.gif" alt="Preview Leafy Website GIF" width="1200px" />
 
 ## Features
 
