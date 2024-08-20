@@ -1,0 +1,2 @@
+# Mark all HTML files as vendored to exclude them from language statistics
+*.html linguist-vendored
