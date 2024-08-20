@@ -1,2 +1,2 @@
-# Ignore HTML files
+# Ignore all HTML files as they are primarily for structure
 *.html
