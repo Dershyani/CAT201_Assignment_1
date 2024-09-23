@@ -37,7 +37,7 @@ Check out the PDF Converter for CAT201 Assignment 1!
 3. **Enter the project folder**
    
    ```bash 
-   cd pdf_converter
+   cd CAT201_Assignment_1/pdf_converter
    ```
    
 4. **Launch the Docker container**
