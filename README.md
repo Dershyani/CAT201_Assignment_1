@@ -2,10 +2,6 @@
 
 Check out the PDF Converter for CAT201 Assignment 1!
 
-- Converts PDFs to TXT and vice versa.
-- Built with `HTML`, `CSS`, `JavaScript`, `PHP`, and `Java`.
-- Utilizes the Apache PDFBox library for PDF handling.
-
 <img src="pdf_converter/Preview.gif" alt="Preview Leafy Website GIF" width="1200px" />
 
 ## Features
